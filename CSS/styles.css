@@ -89,9 +89,9 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 150px) {
-  header h1 {
-    font-size:small;
+@media (min-width: 250px) {
+  header#gi {
+    font-size:10px;
   }
 
   section#conseils {
