@@ -1,0 +1,96 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 80px;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+/* Section */
+section {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Formulaires */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
