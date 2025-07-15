@@ -89,12 +89,15 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 150px) {
   header h1 {
-    font-size: 2rem;
+    font-size:small;
   }
 
   section#conseils {
     padding: 20px;
+  }
+  nav.resp {
+    font-size: small;
   }
 }
